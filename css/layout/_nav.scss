@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    background: lightskyblue;
+    
+    .nav__ul{
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        
+
+        .nav__ul-li {
+            display: grid;
+            background-color: blue;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 2fr;
+            justify-items: stretch;
+            width: 100%;
+
+            &:hover{
+                background-color: black;
+            }
+            .nav__ul-li--a {
+                text-align: center;
+                text-decoration: none;
+                text-align: center;
+                color: #fff;
+                padding: 10px;
+
+            }
+            
+        }
+    }
+}
+
+
+    
+
+
