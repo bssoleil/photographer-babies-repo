@@ -39,7 +39,22 @@
         }
     }
 }
+/*
+@media screen and (max-width: 577px) {*/
+     .fa-bars {
+        display: none !important;
+        @media screen and (max-width: 900px) {
+          display: inline-block !important;  
+        }
+  
 
+    }
+
+@media screen and (max-width: 577px) {
+    .nav {
+        display: none;
+    }
+}
 
     
 

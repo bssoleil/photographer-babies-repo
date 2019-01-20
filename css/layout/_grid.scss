@@ -1,0 +1,168 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background: paleturquoise;
+    grid-gap: 10rem;
+
+}
+
+.main figure img {
+    max-width : 100%;
+}
+
+.main1__figure {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.main2__figure {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    &:hover {
+        transform: scale(1.3);}
+}
+
+.main3__figure {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    &:hover {
+        transform: scale(1.3);
+    } 
+}
+
+.main4__figure {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+.main5__figure {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+.main6__figure {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+.main7__figure {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+.main8__figure {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+.main9__figure {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+    .main-prestations {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .figure-naissance {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%; 
+    }
+
+    .p1 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 0 10rem;
+        font-size: 1.2rem;
+        
+    }
+
+    .figure-bebe {
+        grid-column-start: 1; 
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .p2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 0 10rem;
+        font-size: 1.2rem;
+    }
+
+    .figure-famille {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4; 
+    }
+
+    .p3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding: 0 10rem;
+        font-size: 1.2rem; 
+    }
+
+    .figure-grossesse {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5; 
+    }
+
+    .p4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        padding: 0 10rem;
+        font-size: 1.2rem; 
+    }

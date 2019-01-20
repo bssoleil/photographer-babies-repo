@@ -1,3 +1,33 @@
+/* Formulaire */
+fieldset {
+  width: 400px;
+  border: ridge black 3px;
+  padding: 10px;
+  /*margin: 0 auto; si tu veux le centrer*/ }
+
+legend {
+  font-family: serif;
+  font-size: 25px;
+  text-align: center; }
+
+th {
+  font-family: serif;
+  font-size: 20px;
+  padding: 10px; }
+
+/* Bouton envoyer */
+td .submit {
+  background-color: white;
+  font-family: serif;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px; }
+
+td .submit:hover {
+  background-color: grey;
+  color: white; }
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
@@ -29,6 +59,150 @@ ul {
   padding: 2rem;
   max-width: 2rem; }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background: paleturquoise;
+  grid-gap: 10rem; }
+
+.main figure img {
+  max-width: 100%; }
+
+.main1__figure {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+  .main1__figure:hover {
+    transform: scale(1.2); }
+
+.main2__figure {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; }
+  .main2__figure:hover {
+    transform: scale(1.3); }
+
+.main3__figure {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+  .main3__figure:hover {
+    transform: scale(1.3); }
+
+.main4__figure {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+  .main4__figure:hover {
+    transform: scale(1.3); }
+
+.main5__figure {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4; }
+  .main5__figure:hover {
+    transform: scale(1.3); }
+
+.main6__figure {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5; }
+  .main6__figure:hover {
+    transform: scale(1.3); }
+
+.main7__figure {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5; }
+  .main7__figure:hover {
+    transform: scale(1.3); }
+
+.main8__figure {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4; }
+  .main8__figure:hover {
+    transform: scale(1.3); }
+
+.main9__figure {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5; }
+  .main9__figure:hover {
+    transform: scale(1.3); }
+
+.main-prestations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; }
+
+.figure-naissance {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%; }
+
+.p1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 0 10rem;
+  font-size: 1.2rem; }
+
+.figure-bebe {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.p2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 0 10rem;
+  font-size: 1.2rem; }
+
+.figure-famille {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4; }
+
+.p3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 0 10rem;
+  font-size: 1.2rem; }
+
+.figure-grossesse {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5; }
+
+.p4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  padding: 0 10rem;
+  font-size: 1.2rem; }
+
 * {
   padding: 0;
   margin: 0;
@@ -58,5 +232,67 @@ ul {
         text-align: center;
         color: #fff;
         padding: 10px; }
+
+/*
+@media screen and (max-width: 577px) {*/
+.fa-bars {
+  display: none !important; }
+  @media screen and (max-width: 900px) {
+    .fa-bars {
+      display: inline-block !important; } }
+
+@media screen and (max-width: 577px) {
+  .nav {
+    display: none; } }
+.header__figure {
+  width: 100vw; }
+
+.header__figure__img {
+  width: 100%; }
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: -50rem; }
+
+.call-to-action {
+  position: relative;
+  top: -10rem;
+  left: 49%; }
+
+.fas, .fa-chevron-down {
+  font-size: 3rem;
+  color: #000;
+  text-align: center; }
+
+/* Formulaire */
+fieldset {
+  width: 400px;
+  border: ridge black 3px;
+  padding: 10px;
+  /*margin: 0 auto; si tu veux le centrer*/ }
+
+legend {
+  font-family: serif;
+  font-size: 25px;
+  text-align: center; }
+
+th {
+  font-family: serif;
+  font-size: 20px;
+  padding: 10px; }
+
+/* Bouton envoyer */
+td .submit {
+  background-color: white;
+  font-family: serif;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px; }
+
+td .submit:hover {
+  background-color: grey;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
